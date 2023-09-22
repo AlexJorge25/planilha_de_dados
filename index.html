@@ -14,7 +14,7 @@
     <div class="conteiner">
         <div class="conteiner-tela">
             <form class="tela" id="forms">
-                <h2>Cadastro</h2>
+                <h2 id="titulo">Cadastro</h2>
                 <div>
                     <label for="nome-input">Nome:</label>
                     <input class="input-nome" type="text" placeholder="Nome" id="nome-input" >
@@ -28,7 +28,7 @@
                     <input class="input-numero" type="number" placeholder="Numero" id="numero-input">
                 </div>
                 <div class="botaos">
-                    <button onclick="enviar_dados()" type="submit" class="botao">Gravar</button>
+                    <button onclick="enviar_dados()" type="submit" class="botao" id="botaoGravar">Gravar</button>
                 </div>
             </form>
         </div>
@@ -36,10 +36,10 @@
             <table class="table" id="minha-tabela">
                 <thead class="table-dark">
                     <tr>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Numero</th>
-                        <th scope="col">Ações</th>
+                        <th scope="col" class="text-center">Nome</th>
+                        <th scope="col" class="text-center">Email</th>
+                        <th scope="col" class="text-center">Numero</th>
+                        <th scope="col" class="text-center">Ações</th>
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
