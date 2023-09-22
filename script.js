@@ -136,10 +136,3 @@ forms.addEventListener("submit", function (event) {
 });
 
 atualizarTabela();
-
-var a = 2
-var a2 = 6
-var b = 5 
-var b2 = 5
-var resultado = ((a + a2) + (b + b2))
-
